@@ -1,0 +1,19 @@
+div#form{
+	display: block;
+	position: absolute;
+	z-index: 2000;
+	margin: 0 auto;
+	padding: 10px;
+	width: 250px;
+	text-align: left;
+/* 	top: 20%; */
+/* 	left: 25%; */
+/* 	right: 50%; */
+	background: #573b40;
+/* 	background: #5a5858; */
+	color: #5a5858;
+	border-radius: 10px;
+	padding: 50px;
+	font-family: 'Helvetica', sans-serif;
+	opacity: 0.8;
+}

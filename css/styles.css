@@ -1,0 +1,33 @@
+a:link, a:visited {
+	color: #9a2739;
+}
+
+a:hover{
+	color: #d398a2;
+}
+div#overlay {
+    display: none;
+	z-index: 1500;
+	background: black;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+div#ErrMsg {
+	display: none;
+	position: fixed;
+	z-index: 2000;
+	margin: 0px;
+	top: 20%;
+	left: 25%;
+	right: 25%;
+	background: #fefefe;
+	color: #573b40;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: 'Helvetica', sans-serif;
+	opacity: 0.8;
+}
